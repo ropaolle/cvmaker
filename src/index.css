@@ -12,6 +12,17 @@
   body {
     @apply bg-slate-300;
   }
+
+  @page{
+    size: A4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+/* 
+  @media print {
+    body *, #main * { display:none; }
+    #main, #main #printarea, #main #printarea * { display:block; }
+ } */
 }
 
 /* :root {

@@ -13,6 +13,9 @@ export default {
       height: {
         a4: '297mm',
       },
+      screens: {
+        'print': { 'raw': 'print' },
+      }
     },
   },
   plugins: [
