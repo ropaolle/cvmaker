@@ -8,6 +8,10 @@
   #root {
     @apply h-full;
   }
+
+  body {
+    @apply bg-slate-300;
+  }
 }
 
 /* :root {
