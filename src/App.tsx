@@ -1,5 +1,8 @@
-import headshot from "./assets/olle-headshot-small.jpg";
-import { Linkedin, Globe, Github, X } from "lucide-react";
+import github from "./assets/github.svg";
+import globe from "./assets/globe.svg";
+import linkedin from "./assets/linkedin.svg";
+import headshotSquare from "./assets/olle-headshot-small-square.jpg";
+import twitter from "./assets/twitter.svg";
 
 function App() {
   return (
@@ -12,40 +15,44 @@ function App() {
           <p>How should I make sure that my CV get any attention?</p>
         </article>
 
+        {/* Page 1 */}
         <div className="m-auto my-4 flex h-a4 w-a4 flex-col bg-slate-100 shadow-lg">
           <div className="flex justify-center">
-            <div className="flex flex-col justify-between  w-[33%] space-y-4+ bg-slate-700 px-4 py-12 text-sm text-gray-50">
+            <div className="flex w-[33%] flex-col justify-between bg-slate-700 px-8 py-12 text-sm text-gray-50">
               <div className="flex">
-                <Globe size={20} className="relative mr-1 mt-[1px]" />
+                <img src={globe} className="mr-2 h-6 w-6" />
                 www.ropaolle.se
               </div>
               <div className="flex">
-                <Linkedin size={20} className="relative mr-1 mt-[1px]" />
+                <img src={linkedin} className="mr-2 h-6 w-6" />
                 linkedin.com/in/ropaolle
               </div>
               <div className="flex">
-                <Github size={20} className="relative mr-1 mt-[1px]" />
+                <img src={github} className="mr-2 h-6 w-6" />
                 github.com/ropaolle
               </div>
               <div className="flex">
-                <X size={20} className="relative mr-1 mt-[1px]" />
+                <img src={twitter} className="mr-2 h-6 w-6" />
                 x.com/ropaolle
               </div>
             </div>
             <div className="w-[67%] bg-slate-100 px-8 py-4">
-              <h1 className="mb-0 mt-12 text-[5rem] font-semibold  leading-none text-slate-800">Olof Sjögren</h1>
-              <h2 className="text-[2rem] my-4">Fullstackutvecklare</h2>
+              <h1 className="mb-0 mt-16 text-[4rem] font-bold leading-none text-slate-800">
+                Olof Sjögren
+              </h1>
+              <h2 className="mt-4 text-[2rem]">Fullstackutvecklare</h2>
             </div>
           </div>
 
           <div className="flex bg-sky-500">
-            <div className="w-[33%] overflow-visible px-8 py-4 ">
+            <div className="px-8+ py-4+ flex w-[33%] flex-col items-center justify-center ">
               <img
-                src={headshot}
-                className="absolute max-w-[200px] rounded border-4 "
+                src={headshotSquare}
+                className="h-40  w-40 rounded-full border-8"
+                // className="absolute rounded border-8 h-48"
               />
             </div>
-            <div className="w-[67%] px-8 py-4 ">
+            <div className="w-[67%] px-8 py-4 text-justify">
               Jag är en erfaren DevOps/utvecklare som älskar problemlösning och
               ny teknik. Automatisera och bygga CD/CI pipelines har alltid varit
               något jag försökt driva på i projekt jag arbetat med. Lätt att
@@ -55,15 +62,92 @@ function App() {
             </div>
           </div>
 
-          {/* <div><img src={headshot} className='border-4 rounded max-w-[200px] mt-[-200px]'/></div> */}
-
           <div className="flex flex-1">
-            <div className="w-[33%] bg-slate-500 p-4"></div>
+            <div className="w-[33%] bg-slate-700 p-8 text-sm text-slate-100">
+              <div className="font-semibold uppercase text-sky-500">
+                Kontakt
+              </div>
+              <div>Olof Sjögren</div>
+              <div>Fridshyddevägen 1</div>
+              <div>191 36 SOLLENTUNA</div>
+              <div>Sverige</div>
+              <div className="mt-2">070–7165447</div>
+              <div>olof.sjogren@ropaolle.se</div>
+              <div className="mt-4 font-semibold text-sky-500">
+                Datum/födelseort
+              </div>
+              <div>11 maj 1971</div>
+              <div>Sollentuna</div>
+              <div className="mt-4 font-semibold text-sky-500">
+                Nationalitet
+              </div>
+              Svensk
+              <div className="mt-4 font-semibold text-sky-500">Språk</div>
+              <div>Svenska modersmål</div>
+              <div>Engelsk flytande</div>
+            </div>
+
             <div className="w-[67%] bg-slate-100 px-8 py-4">
-              <h2 className="">Tjänst 1</h2>
+              <h2 className="mt-4 text-2xl uppercase">Arbetslivserfarenhet</h2>
+
+              {/* jobb */}
+              <h3 className="mt-2 text-xl font-semibold">
+                Kompetensutveckling/sabbatsår
+              </h3>
+              <div className="flex flex-row justify-between border-b-2 text-sm">
+                <div>Frilans, Sollentuna/Öland</div>
+                <div>2022 - nu</div>
+              </div>
+              <div className=" mt-2 text-justify text-sm">
+                Underhåll av äldre webprojekt. Kompetensutveckling genom att
+                bygga lösningar med senaste releaserna av till exempel NextJS,
+                Vite, Astro, Supabase, Zustand, React-hook-form, Zod med mera.
+                Rivit ner och designat om min privata infrastruktur. Två
+                XenServer hypervisors i master/slav-läge med Docker på CoreOS.
+                Som i sin tur är värd för Gitlab, GrayLog, UniFi-controller,
+                Plex, webbservrar etcetera. Allt ligger bakom pfSence med
+                HAProxy för domänaccess och SSL-cert.
+              </div>
+
+              {/* jobb */}
+              <h3 className="mt-4 text-xl font-semibold">
+                Team Swift Maintainer (konsult)
+              </h3>
+              <div className="flex flex-row justify-between border-b-2 text-sm">
+                <div>Skandinaviska Enskilda Banken AB, Solna</div>
+                <div>2020 - 2021</div>
+              </div>
+              <div className=" mt-2 text-justify text-sm">
+                Underhåll, implementation, test och support av ett antal
+                centrala system primärt för SWIFT-miljön och Anti-Money
+                Laundering (AML). Ett tight team med medarbetare i Sverige och
+                Lettland. Internt användes engelska. Scrum används som metodik.
+                Merparten av applikationerna kom från IBM, Oracle och Swift.
+              </div>
+
+              {/* jobb */}
+              <h3 className="mt-4 text-xl font-semibold">
+                Team Swift Maintainer (konsult)
+              </h3>
+              <div className="flex flex-row justify-between border-b-2 text-sm">
+                <div>Skandinaviska Enskilda Banken AB, Solna</div>
+                <div>2020 - 2021</div>
+              </div>
+              <div className=" mt-2 text-justify text-sm">
+                Underhåll, implementation, test och support av ett antal
+                centrala system primärt för SWIFT-miljön och Anti-Money
+                Laundering (AML). Ett tight team med medarbetare i Sverige och
+                Lettland. Internt användes engelska. Scrum används som metodik.
+                Merparten av applikationerna kom från IBM, Oracle och Swift.
+              </div>
+
+              {/* end */}
             </div>
           </div>
         </div>
+
+         {/* Page 2 */}
+         <div className="m-auto my-4 flex h-a4 w-a4 flex-col bg-slate-100 shadow-lg">asd</div>
       </main>
 
       <footer className="bg-neutral-200 p-12">Footer</footer>
