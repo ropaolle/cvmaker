@@ -1,14 +1,12 @@
 import { ReactNode } from "react";
 
-
-
 type Props = {
   title: string;
   company: string;
   location: string;
   start: string;
   end: string;
-  children: ReactNode;
+  description: ReactNode;
 };
 
 export default function Experience({
@@ -17,12 +15,12 @@ export default function Experience({
   location,
   start,
   end,
-  children,
+  description,
 }: Props) {
   return (
     <article className="break-inside-avoid-page">
       <h3 className="mt-4 text-xl font-semibold">{title}</h3>
-      <div className="flex flex-row justify-between border-b-2 text-xs ">
+      <div className="mt-1 flex flex-row justify-between border-b-2 text-xs ">
         <div>
           {company}
           {location && `, ${location}`}
@@ -32,7 +30,7 @@ export default function Experience({
         </div>
       </div>
       <div className=" mt-2 text-justify text-sm leading-normal">
-        {children}
+        {description}
       </div>
     </article>
   );

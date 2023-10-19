@@ -13,12 +13,21 @@
     @apply bg-slate-300;
   }
 
-  @page{
+  @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      -moz-print-color-adjust: exact;
+      -ms-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }
+
+  /* @page {
     size: A4;
     margin-top: 50px;
     margin-bottom: 50px;
-  }
-/* 
+  } */
+  /* 
   @media print {
     body *, #main * { display:none; }
     #main, #main #printarea, #main #printarea * { display:block; }

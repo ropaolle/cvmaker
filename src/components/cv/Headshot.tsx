@@ -1,5 +1,5 @@
-import headshotSquare from "../assets/olle-headshot-small-square.jpg";
-import { cn } from "./utils";
+import headshotSquare from "../../assets/olle-headshot-small-square.jpg";
+import { cn } from "../utils";
 
 export default function Headshot({ type }: { type: "square" | "circle" }) {
   return (

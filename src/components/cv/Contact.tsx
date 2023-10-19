@@ -1,5 +1,4 @@
-import phone from "../assets/phone.svg";
-import mail from "../assets/mail.svg";
+import { Email, FlagSweden, FlagUsa, Phone } from "./icons";
 
 export default function Contact() {
   return (
@@ -10,11 +9,11 @@ export default function Contact() {
       <div>191 36 SOLLENTUNA</div>
       <div>Sverige</div>
       <div className="mt-2 flex">
-        <img src={phone} className="mr-2 mt-[1px] h-5 w-5" />
+        <Phone className="mr-2" />
         070–7165447
       </div>
       <div className="flex">
-        <img src={mail} className="mr-2 mt-[1px] h-5 w-5" />
+        <Email className="mr-2" />
         olof.sjogren@ropaolle.se
       </div>
       <div className="mt-4 font-semibold text-sky-500">Datum/födelseort</div>
@@ -23,8 +22,14 @@ export default function Contact() {
       <div className="mt-4 font-semibold text-sky-500">Nationalitet</div>
       <div>Svensk</div>
       <div className="mt-4 font-semibold text-sky-500">Språk</div>
-      <div>Svenska modersmål</div>
-      <div>Engelsk flytande</div>
+      <div className="flex">
+        <FlagSweden className="mr-2" />
+        Svenska modersmål
+      </div>
+      <div className="flex">
+        <FlagUsa className="mr-2" />
+        Engelsk flytande
+      </div>
     </>
   );
 }
