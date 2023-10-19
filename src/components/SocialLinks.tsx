@@ -8,19 +8,19 @@ export default function SocialLinks() {
     <>
       <div className="flex">
         <img src={globe} className="mr-2 h-6 w-6" />
-        www.ropaolle.se
+        <a href="https://www.ropaolle.se">www.ropaolle.se</a>
       </div>
       <div className="flex">
         <img src={linkedin} className="mr-2 h-6 w-6" />
-        linkedin.com/in/ropaolle
+        <a href="https://linkedin.com/in/ropaolle">linkedin.com/in/ropaolle</a>
       </div>
       <div className="flex">
         <img src={github} className="mr-2 h-6 w-6" />
-        github.com/ropaolle
+        <a href="https://github.com/ropaolle">github.com/ropaolle</a>
       </div>
       <div className="flex">
         <img src={twitter} className="mr-2 h-6 w-6" />
-        x.com/ropaolle
+        <a href="https://x.com/ropaolle">x.com/ropaolle</a>
       </div>
     </>
   );

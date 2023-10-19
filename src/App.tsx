@@ -1,8 +1,8 @@
 import Experience from "./components/Experience";
 import Headshot from "./components/Headshot";
 import SocialLinks from "./components/SocialLinks";
-import phone from './assets/phone.svg'
-import mail from './assets/mail.svg'
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,6 +16,8 @@ function App() {
         </article>
 
         <div className="m-auto my-4 flex h-a4 w-a4 flex-col bg-slate-100 shadow-lg  print:visible print:my-0">
+
+          
           <div className="flex justify-center">
             <div className="flex w-[33%] flex-col justify-between bg-slate-700 px-8 py-12 text-sm text-gray-50">
               <SocialLinks />
@@ -33,6 +35,9 @@ function App() {
               <Headshot type="circle" />
             </div>
             <div className="w-[67%] px-8 py-4 text-justify">
+              <div className="font-semibold uppercase text-slate-50">
+                Profil
+              </div>
               Jag är en erfaren DevOps/utvecklare som älskar problemlösning och
               ny teknik. Automatisera och bygga CD/CI pipelines har alltid varit
               något jag försökt driva på i projekt jag arbetat med. Lätt att
@@ -44,27 +49,7 @@ function App() {
 
           <div className="flex flex-1">
             <div className="w-[33%] bg-slate-700 p-8 text-sm text-slate-100">
-              <div className="font-semibold uppercase text-sky-500">
-                Kontakt
-              </div>
-              <div>Olof Sjögren</div>
-              <div>Fridshyddevägen 1</div>
-              <div>191 36 SOLLENTUNA</div>
-              <div>Sverige</div>
-              <div className="mt-2 flex"><img src={phone} className="mr-2 h-5 w-5 mt-[1px]" />070–7165447</div>
-              <div className="flex"><img src={mail} className="mr-2 h-5 w-5 mt-[1px]" />olof.sjogren@ropaolle.se</div>
-              <div className="mt-4 font-semibold text-sky-500">
-                Datum/födelseort
-              </div>
-              <div>11 maj 1971</div>
-              <div>Sollentuna</div>
-              <div className="mt-4 font-semibold text-sky-500">
-                Nationalitet
-              </div>
-              Svensk
-              <div className="mt-4 font-semibold text-sky-500">Språk</div>
-              <div>Svenska modersmål</div>
-              <div>Engelsk flytande</div>
+              <Contact />
             </div>
 
             <div className="w-[67%] bg-slate-100 px-8 py-4">
@@ -114,19 +99,6 @@ function App() {
                 Lettland. Internt användes engelska. Scrum används som metodik.
                 Merparten av applikationerna kom från IBM, Oracle och Swift.
               </Experience>
-              {/* <Experience
-                title="Team Swift Maintainer (konsult)"
-                company="Skandinaviska Enskilda Banken AB"
-                location="Solna"
-                start="2020"
-                end="2021"
-              >
-                Underhåll, implementation, test och support av ett antal
-                centrala system primärt för SWIFT-miljön och Anti-Money
-                Laundering (AML). Ett tight team med medarbetare i Sverige och
-                Lettland. Internt användes engelska. Scrum används som metodik.
-                Merparten av applikationerna kom från IBM, Oracle och Swift.
-              </Experience> */}
             </div>
           </div>
         </div>
@@ -136,16 +108,7 @@ function App() {
         <div className="m-auto my-4 flex h-a4 w-a4 flex-col bg-slate-100 shadow-lg  print:visible print:my-0">
           <div className="flex flex-1">
             <div className="w-[33%] bg-slate-700 p-8 text-sm text-slate-100">
-              <div className="font-semibold uppercase text-sky-500">
-                Kompetenser
-              </div>
-              <div>?</div>
-
-              <div className="mt-4 font-semibold text-sky-500">Backend</div>
-              <div>
-                NodeJS, Deno, MongoDB, SQL, MySQL, MariaDB, PostgreSQL,
-                Supabase, Firebase, Loopback
-              </div>
+              <Skills />
             </div>
 
             <div className="w-[67%] bg-slate-100 px-8 py-4">
