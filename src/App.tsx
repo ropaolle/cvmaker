@@ -1,7 +1,6 @@
 import Page from "./components/Page";
 
 function App() {
-  console.log(import.meta.env);
   return (
     <div className="flex h-full min-w-fit flex-col print:invisible">
       <header className="flex items-center justify-between bg-neutral-200 p-6  print:hidden">
