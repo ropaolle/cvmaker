@@ -1,10 +1,11 @@
 import Page from "./components/Page";
 
 function App() {
+  console.log(import.meta.env)
   return (
-    <div className="flex h-full min-w-fit flex-col print:invisible ">
-      <header className="flex justify-between bg-neutral-200 p-8 print:hidden">
-        <div className="flex h-6 justify-center align-middle text-red-500">
+    <div className="flex h-full min-w-fit flex-col print:invisible">
+      <header className="flex justify-between bg-neutral-200 p-6 print:hidden  items-center">
+        <div className="flex h-8 justify-center align-middle text-red-500">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path
               fill="currentColor"
@@ -13,7 +14,18 @@ function App() {
           </svg>
           <div className="ml-1 text-xl font-semibold text-slate-500">maker</div>
         </div>
-        <div>
+        <div className="text-3xl font-bold text-slate-600 drop-shadow-lg">
+          Curriculum vitae
+        </div>
+        <div className="mb-8+ text-center">
+          <a
+            href="./cv_fullstackutvecklare_olofsjogren_20231020.pdf"
+            className="rounded bg-green-600 px-8 py-4 font-bold text-white hover:bg-green-700"
+          >
+            Ladda ner...
+          </a>
+        </div>
+        {/* <div>
           <a
             href="https://github.com/ropaolle/cvmaker"
             className="flex h-6 justify-center align-middle text-slate-500"
@@ -25,18 +37,18 @@ function App() {
               />
             </svg>
           </a>
-        </div>
+        </div> */}
       </header>
 
       <main className="flex flex-1 flex-col p-12 print:m-0 print:p-0">
-        <div className="mb-8  text-center">
+        {/* <div className="mb-8  text-center">
           <a
             href="./cv_fullstackutvecklare_olofsjogren_20231020.pdf"
             className="rounded bg-green-600 px-8 py-4 font-bold text-white hover:bg-green-700"
           >
             Ladda ner...
           </a>
-        </div>
+        </div> */}
 
         <Page />
       </main>
