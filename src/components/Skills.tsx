@@ -45,7 +45,9 @@ export default function Skills({ skills }: { skills: SkillGroup[] }) {
 
   return (
     <>
-      <div className="font-semibold uppercase text-sky-500">Kompetenser</div>
+      <div className="text-lg uppercase tracking-wide text-sky-500">
+        Kompetenser
+      </div>
       {skills.sort(sortByPriority).map(({ title, skills }) => (
         <React.Fragment key={title}>
           <div className="mt-4 font-semibold text-sky-500">{title}</div>

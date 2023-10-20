@@ -19,17 +19,17 @@ export default function Experience({
 }: Props) {
   return (
     <article className="break-inside-avoid-page">
-      <h3 className="mt-4 text-xl font-semibold">{title}</h3>
-      <div className="mt-1 flex flex-row justify-between border-b-2 text-xs ">
+      <h3 className="mt-4 text-xl font-semibold text-slate-700">{title}</h3>
+      <div className="mt-1 flex flex-row justify-between border-b-2 text-xs">
         <div>
-          {company}
+          <span className="font-semibold text-slate-900">{company}</span>
           {location && `, ${location}`}
         </div>
         <div>
           {start} - {end}
         </div>
       </div>
-      <div className=" mt-2 text-justify text-sm leading-normal">
+      <div className="mt-2 hyphens-auto text-sm leading-normal">
         {description}
       </div>
     </article>

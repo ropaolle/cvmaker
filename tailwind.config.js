@@ -7,12 +7,12 @@ export default {
   ],
   theme: {
     extend: {
-      width: {
-        a4: '210mm',
-      },
-      height: {
-        a4: '297mm',
-      },
+      // width: {
+      //   a4: '210mm',
+      // },
+      // height: {
+      //   a4: '297mm',
+      // },
       screens: {
         'print': { 'raw': 'print' },
       }

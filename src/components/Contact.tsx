@@ -3,7 +3,9 @@ import { Email, FlagSweden, FlagUsa, Phone } from "./icons";
 export default function Contact() {
   return (
     <>
-      <div className="font-semibold uppercase text-sky-500">Kontakt</div>
+      <div className="mb-1 text-xl uppercase tracking-wide text-sky-500">
+        Kontakt
+      </div>
       <div>Olof Sjögren</div>
       <div>Fridshyddevägen 1</div>
       <div>191 36 SOLLENTUNA</div>
