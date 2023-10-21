@@ -18,7 +18,10 @@ export default function Experience({
   description,
 }: Props) {
   return (
-    <article className="break-inside-avoid-page">
+    <article className="relative ml-6 break-inside-avoid-page">
+      <div className="absolute left-[-30px] top-[6px] h-4 w-4 rounded-full bg-sky-600" />
+      <div className="absolute left-[-24px] top-[6px] h-[180%] w-1 bg-sky-600" />
+
       <h3 className="mt-4 text-xl font-semibold text-slate-700">{title}</h3>
       <div className="mt-1 flex flex-row justify-between border-b-2 text-xs">
         <div>

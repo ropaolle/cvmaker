@@ -5,6 +5,8 @@
 - [Vite](https://vitejs.dev/)
 - [Typography](https://tailwindcss.com/docs/typography-plugin)
 - [Typography default styles](https://github.com/tailwindlabs/tailwindcss-typography/blob/master/src/styles.js)
+- [Iconify](https://icon-sets.iconify.design/)
+- [SVG patterns](https://heropatterns.com/)
 
 ## Setup
 

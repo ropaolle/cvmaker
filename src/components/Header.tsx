@@ -14,7 +14,7 @@ export default function CvHeader({
           <SocialLinks />
         </div>
         <div className="flex w-[67%] flex-col justify-end bg-slate-100 p-8">
-          <h1 className="text-[4rem] font-bold leading-none text-slate-700">
+          <h1 className="text-[4rem] font-bold leading-none text-slate-700 drop-shadow-md">
             {name}
           </h1>
           <h2 className="mt-4 text-2xl font-semibold uppercase tracking-wide text-sky-600">
