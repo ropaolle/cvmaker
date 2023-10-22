@@ -2,8 +2,9 @@ const roles = {
   fullstackDeveloper: {
     name: "Olof Sjögren",
     position: "Fullstackutvecklare",
-    language: 'sv',
+    language: "sv",
     version: "V.20230220",
+    profileTitle: "Profil",
     profile: (
       <>
         Jag är en erfaren DevOps/utvecklare som älskar problemlösning och ny
@@ -12,6 +13,21 @@ const roles = {
         arbeta i team, gärna agilt. Lösningsorienterad och van att ta ansvar.
       </>
     ),
+    education: {
+      title: "Utbildning",
+      items: [
+        "Armens tekniska skola, systemdesign och telekommunikation, 1993",
+        "Elektroingenjör 80p, Mittuniversitetet, 1990-1992",
+      ],
+    },
+    other: {
+      title: "Övriga meriter",
+      items: ["Körkort B"],
+    },
+    references: {
+      title: "Referenser",
+      items: ["På begäran"],
+    },
   },
 };
 
@@ -47,7 +63,7 @@ const experiences = [
     ),
   },
   {
-    title: "Projektledare/Utvecklare Företagstelefoni (konsult)",
+    title: "Projektledare/Utvecklare (konsult)",
     company: "Systembolaget AB",
     location: "Sollentuna",
     start: "2016",
@@ -125,17 +141,15 @@ const skills = [
     skills: [
       { name: "JavaScript", level: 5 },
       { name: "TypeScript", level: 5 },
-      { name: "REACT", level: 4 },
-      "HTML",
-      "CSS",
-      "REACT",
-      "NextJS",
+      { name: "REACT", level: 5 },
+      { name: "HTML/CSS", level: 4 },
+      "Next JS",
       "Vite",
       "Astro",
-      "KeystoneJS",
+      "Keystone JS",
       "Drupal",
       "Wordpress",
-      "Tailwind",
+      "Tailwindcss",
       "Zustand",
       "React-hook-form",
     ],
@@ -144,13 +158,13 @@ const skills = [
     title: "Backend",
     priority: 0,
     skills: [
-      "NodeJS",
+      { name: "Node.js", level: 5 },
+      { name: "SQL", level: 5 },
       "Deno",
-      "MongoDB",
-      "SQL",
       "MySQL",
       "MariaDB",
       "PostgreSQL",
+      "MongoDB",
       "Supabase",
       "Firebase",
       "Loopback",

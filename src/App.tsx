@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Fancy from "./pages/Fancy";
 import Formal from "./pages/Formal";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import { cn } from "./components/utils";
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
       case "formal":
         return <Formal />;
       default:
-        return <Home />;
+        return <Fancy />;
+      // return <Home />;
     }
   };
 
@@ -54,7 +55,7 @@ function App() {
       </header>
 
       <main className="flex flex-1 flex-col p-12 print:m-0 print:p-0">
-        <div className="flex justify-center space-x-4 text-slate-700">
+        <div className="flex justify-center space-x-4 text-slate-700 print:hidden">
           <button
             onClick={() => setPage("fancy")}
             className={cn(
@@ -73,7 +74,7 @@ function App() {
           >
             Formal
           </button>
-          <button
+          {/* <button
             onClick={() => setPage("home")}
             className={cn(
               page === "home" &&
@@ -81,13 +82,35 @@ function App() {
             )}
           >
             Home
-          </button>
+          </button> */}
         </div>
         <CurrentPage />
       </main>
 
       <footer className="bg-slate-800 p-12 text-center text-slate-300 print:hidden">
-        CVmaker | version {import.meta.env.PACKAGE_VERSION}
+        CVmaker, version {import.meta.env.PACKAGE_VERSION}
+        <div>
+          tech:
+          <a href="https://vitejs.dev" className="text-slate-500 mx-2">
+            vite
+          </a>
+          |
+          <a href="https://tailwindcss.com/" className="text-slate-500 mx-2 ">
+            teailwindcss
+          </a>{" "}
+          |
+          <a href="https://react.dev/" className="text-slate-500 mx-2">
+            rect
+          </a>{" "}
+          |
+          <a href="https://www.typescriptlang.org/" className="text-slate-500 mx-2">
+            typescript
+          </a>{" "}
+          |
+          <a href="https://vercel.com/" className="text-slate-500 mx-2">
+            vercel
+          </a>
+        </div>
       </footer>
     </div>
   );

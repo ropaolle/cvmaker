@@ -66,7 +66,7 @@ function Email({ className }: { className?: string }) {
     <div className={cn("mt-[1px] h-5 w-5", className)}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
         <path
-          fill="white"
+          fill="currentColor"
           d="M224 50H32a6 6 0 0 0-6 6v136a14 14 0 0 0 14 14h176a14 14 0 0 0 14-14V56a6 6 0 0 0-6-6Zm-96 85.86L47.42 62h161.16ZM101.67 128L38 186.36V69.64Zm8.88 8.14L124 148.42a6 6 0 0 0 8.1 0l13.4-12.28L208.58 194H47.43Zm43.78-8.14L218 69.64v116.72Z"
         />
       </svg>
@@ -78,7 +78,7 @@ function Phone({ className }: { className?: string }) {
     <div className={cn("mt-[1px] h-5 w-5", className)}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
         <path
-          fill="white"
+          fill="currentColor"
           d="m222.37 158.46l-47.11-21.11l-.13-.06a16 16 0 0 0-15.17 1.4a8.12 8.12 0 0 0-.75.56L134.87 160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16 16 0 0 0 1.32-15.06v-.12L97.54 33.64a16 16 0 0 0-16.62-9.52A56.26 56.26 0 0 0 32 80c0 79.4 64.6 144 144 144a56.26 56.26 0 0 0 55.88-48.92a16 16 0 0 0-9.51-16.62ZM176 208A128.14 128.14 0 0 1 48 80a40.2 40.2 0 0 1 34.87-40a.61.61 0 0 0 0 .12l21 47l-20.67 24.74a6.13 6.13 0 0 0-.57.77a16 16 0 0 0-1 15.7c9.06 18.53 27.73 37.06 46.46 46.11a16 16 0 0 0 15.75-1.14a8.44 8.44 0 0 0 .74-.56L168.89 152l47 21.05h.11A40.21 40.21 0 0 1 176 208Z"
         />
       </svg>
@@ -92,7 +92,7 @@ function Globe({ className }: { className?: string }) {
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <g
           fill="none"
-          stroke="white"
+          stroke="currentcolor"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth="2"
@@ -125,7 +125,7 @@ function GitHub({ className }: { className?: string }) {
     <div className={cn("mt-[1px] h-5 w-5", className)}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path
-          fill="white"
+          fill="currentcolor"
           d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"
         />
       </svg>

@@ -1,14 +1,14 @@
 export default function DownloadButton({
-  link,
+  href,
   label = "Ladda ner",
 }: {
-  link: string;
+  href: string;
   label?: string;
 }) {
   return (
-    <div className="m-auto mb-24 mt-12">
+    <div className="m-auto mb-12 mt-12 print:hidden">
       <a
-        href={link}
+        href={href}
         className="inline-flex items-center rounded bg-green-600 px-8 py-4 text-xl text-white hover:bg-green-700"
       >
         <svg
