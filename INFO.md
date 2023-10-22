@@ -7,6 +7,9 @@
 - [Typography default styles](https://github.com/tailwindlabs/tailwindcss-typography/blob/master/src/styles.js)
 - [Iconify](https://icon-sets.iconify.design/)
 - [SVG patterns](https://heropatterns.com/)
+- [Planetscale](https://planetscale.com/docs/tutorials/planetscale-quick-start-guide)
+  - [MySQL](https://planetscale.com/learn/courses/mysql-for-developers/introduction/course-introduction)
+  - [Drizzle](https://orm.drizzle.team/docs/quick-mysql/planetscale)
 
 ## Setup
 

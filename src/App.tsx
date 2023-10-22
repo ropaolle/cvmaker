@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Fancy from "./pages/Fancy";
 import Formal from "./pages/Formal";
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 import { cn } from "./components/utils";
 
 function App() {
@@ -14,8 +14,7 @@ function App() {
       case "formal":
         return <Formal />;
       default:
-        return <Fancy />;
-      // return <Home />;
+        return <Home />;
     }
   };
 
