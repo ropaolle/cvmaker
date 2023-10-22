@@ -1,5 +1,6 @@
 import headshotSquare from "@/assets/olle-headshot-small-square.jpg";
 import Contact from "@/components/Contact";
+import DownloadButton from "@/components/DownloadButton";
 import Experience from "@/components/Experience";
 import Page from "@/components/Page";
 import Skills from "@/components/Skills";
@@ -113,6 +114,8 @@ export default function Fancy() {
           {version}
         </div>
       </Page>
+
+      <DownloadButton href="./cv_fullstackutvecklare_olofsjogren_20231022_v1.pdf" />
     </>
   );
 }

@@ -70,7 +70,7 @@ export default function Fancy() {
         </div>
       </Page>
 
-      <DownloadButton href="./cv_fullstackutvecklare_olofsjogren_20231020.pdf" />
+      <DownloadButton href="./cv_fullstackutvecklare_olofsjogren_20231022_v2.pdf" />
     </>
   );
 }
