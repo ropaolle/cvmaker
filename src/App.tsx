@@ -73,7 +73,7 @@ function App() {
           >
             Formal
           </button>
-          <button
+          {/* <button
             onClick={() => setPage("home")}
             className={cn(
               page === "home" &&
@@ -81,7 +81,7 @@ function App() {
             )}
           >
             Home
-          </button>
+          </button> */}
         </div>
         <CurrentPage />
       </main>
