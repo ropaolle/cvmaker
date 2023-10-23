@@ -90,23 +90,26 @@ function App() {
         CVmaker, version {import.meta.env.PACKAGE_VERSION}
         <div>
           tech:
-          <a href="https://vitejs.dev" className="text-slate-500 mx-2">
+          <a href="https://vitejs.dev" className="mx-2 text-slate-500">
             vite
           </a>
           |
-          <a href="https://tailwindcss.com/" className="text-slate-500 mx-2 ">
+          <a href="https://tailwindcss.com/" className="mx-2 text-slate-500 ">
             teailwindcss
           </a>{" "}
           |
-          <a href="https://react.dev/" className="text-slate-500 mx-2">
+          <a href="https://react.dev/" className="mx-2 text-slate-500">
             rect
           </a>{" "}
           |
-          <a href="https://www.typescriptlang.org/" className="text-slate-500 mx-2">
+          <a
+            href="https://www.typescriptlang.org/"
+            className="mx-2 text-slate-500"
+          >
             typescript
           </a>{" "}
           |
-          <a href="https://vercel.com/" className="text-slate-500 mx-2">
+          <a href="https://vercel.com/" className="mx-2 text-slate-500">
             vercel
           </a>
         </div>

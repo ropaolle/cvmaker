@@ -8,7 +8,7 @@ const roles = {
     profile: (
       <>
         Jag är en erfaren DevOps/utvecklare som älskar problemlösning och ny
-        teknik. Automatisera och bygga CD/CI pipelines har alltid varit något
+        teknik. Automatisera och bygga CI/CD pipelines har alltid varit något
         jag försökt driva i projekt jag arbetat med. Lätt att anpassa mig och
         arbeta i team, gärna agilt. Lösningsorienterad och van att ta ansvar.
       </>
@@ -88,7 +88,7 @@ const experiences = [
     description: (
       <>
         Utveckling av en webbportal för administration av mobiltelefoner. Jag
-        arbetade främst med frontend, men även med api och att bygga cd/ci
+        arbetade främst med frontend, men även med api och att bygga ci/cd
         pipeline och docker-infrastrukturen. Portalen riktade sig både till
         administratörer och slutanvändare. Utveckling och design av ett
         webbaserat tid- och projektrapporteringssystem, med integration mot
@@ -182,7 +182,7 @@ const skills = [
       "Swarn",
       "Portainer",
       "Git",
-      "GitLab CD/CI",
+      "GitLab CI/CD",
       "GitHub Actions",
       "Graylog",
       "Splunk",
