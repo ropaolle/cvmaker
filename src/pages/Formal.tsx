@@ -6,7 +6,7 @@ import Page from "@/components/Page";
 import SectionList from "@/components/SectionList";
 import Skills from "@/components/Skills";
 import SocialLinks from "@/components/SocialLinks";
-import { AthegaLogo } from "@/components/icons";
+// import { AthegaLogo } from "@/components/icons";
 import { Dotts } from "@/components/patterns";
 import { experiences, roles, skills } from "@/cv-data";
 
