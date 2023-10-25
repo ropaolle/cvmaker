@@ -6,6 +6,7 @@ import Page from "@/components/Page";
 import SectionList from "@/components/SectionList";
 import Skills from "@/components/Skills";
 import SocialLinks from "@/components/SocialLinks";
+import { AthegaLogo } from "@/components/icons";
 import { Dotts } from "@/components/patterns";
 import { experiences, roles, skills } from "@/cv-data";
 
@@ -45,6 +46,7 @@ export default function Fancy() {
           </div>
         </div>
         <Dotts className="absolute bottom-0 h-32 w-64 rotate-45 opacity-40" />
+        {/* <AthegaLogo className="absolute bottom-2 left-4 w-48 opacity-90" /> */}
       </Page>
 
       <Page page={2}>
@@ -65,9 +67,10 @@ export default function Fancy() {
           </div>
         </div>
         <Dotts className="absolute bottom-0 h-32 w-64 rotate-45 opacity-40" />
-        <div className="absolute bottom-1 left-2 text-xs text-slate-500">
+        <div className="absolute bottom-1 left-4 text-xs text-slate-500">
           {version}
         </div>
+        {/* <AthegaLogo className="absolute bottom-2 left-4 w-48 opacity-90" /> */}
       </Page>
 
       <DownloadButton href="./cv_fullstackutvecklare_olofsjogren_20231022_v2.pdf" />

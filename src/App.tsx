@@ -83,6 +83,7 @@ function App() {
             Home
           </button> */}
         </div>
+
         <CurrentPage />
       </main>
 
