@@ -63,24 +63,7 @@ const experiences = [
     ),
   },
   {
-    title: "Projektledare/Utvecklare (konsult)",
-    company: "Systembolaget AB",
-    location: "Sollentuna",
-    start: "2016",
-    end: "2017",
-    description: (
-      <>
-        Ansvarig för systemdesign och utrullning av en 3CX IP-telefonilösning
-        till Systembolagets 450 butiker och distributionsanläggningar. I
-        projektet satt vi upp lösningen på Windows och RHEL-maskiner som hyrdes
-        av Evry. Jag byggde även ett kundanpassat system för projekthantering
-        och distribution av hårdvara som kördes i Azure och användes av vår
-        installationspartner.
-      </>
-    ),
-  },
-  {
-    title: "Full-stack Web Developer",
+    title: "Full-stack Web Developer (anställd/konsult)",
     company: "Teleoffice Viewcom AB",
     location: "Solna",
     start: "2018",
@@ -96,12 +79,30 @@ const experiences = [
       </>
     ),
   },
+
   {
-    title: "Teknisk chef/Produktägare/VD",
+    title: "Projektledare/Utvecklare (konsult)",
+    company: "Systembolaget AB",
+    location: "Sollentuna",
+    start: "2017",
+    end: "2018",
+    description: (
+      <>
+        Ansvarig för systemdesign och utrullning av en 3CX IP-telefonilösning
+        till Systembolagets 450 butiker och distributionsanläggningar. I
+        projektet satt vi upp lösningen på Windows och RHEL-maskiner som hyrdes
+        av Evry. Jag byggde även ett kundanpassat system för projekthantering
+        och distribution av hårdvara som kördes i Azure och användes av vår
+        installationspartner.
+      </>
+    ),
+  },
+  {
+    title: "Teknisk chef/VD",
     company: "Licencia Telecom AB",
     location: "Solna",
     start: "2011",
-    end: "2016",
+    end: "2017",
     description: (
       <>
         Sverigeansvarig för utveckling och anpassning av Ericsson-LG
