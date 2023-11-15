@@ -3,7 +3,7 @@ const roles = {
     name: "Olof Sjögren",
     position: "Fullstackutvecklare",
     language: "sv",
-    version: "V.20230220",
+    version: "V.20231115",
     profileTitle: "Profil",
     profile: (
       <>
