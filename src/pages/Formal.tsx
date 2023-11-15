@@ -73,7 +73,7 @@ export default function Fancy() {
         {/* <AthegaLogo className="absolute bottom-2 left-4 w-48 opacity-90" /> */}
       </Page>
 
-      <DownloadButton href="./cv_fullstackutvecklare_olofsjogren_20231022_v2.pdf" />
+      <DownloadButton href="./cv_fullstackutvecklare_olofsjogren_20231115_v2.pdf" />
     </>
   );
 }

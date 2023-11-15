@@ -48,17 +48,17 @@ const experiences = [
     ),
   },
   {
-    title: "Team Swift Maintainer (konsult)",
+    title: "Backend Maintainer (konsult)",
     company: "Skandinaviska Enskilda Banken AB",
     location: "Solna",
     start: "2020",
     end: "2021",
     description: (
       <>
-        Underhåll, implementation, test och support av SWIFT och Anti-Money
-        Laundering. Ett tight team med medarbetare i Sverige och Lettland.
-        Internt användes engelska. Scrum används som metodik. Merparten av
-        applikationerna kom från IBM, Oracle och Swift.
+        Underhåll, implementation, test och support av interna it-system. Ett
+        tight team med medarbetare i Sverige och Lettland. Internt användes
+        engelska. Scrum används som metodik. Merparten av applikationerna kom
+        från IBM och Oracle.
       </>
     ),
   },
